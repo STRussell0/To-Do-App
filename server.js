@@ -7,7 +7,7 @@ let app = express();
 let db
 
 let port = process.env.PORT
-if (port == null OR port == "") {
+if (port == null || port == "") {
   port = 3000
 }
 
